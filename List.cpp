@@ -12,12 +12,13 @@ int main()
         cout << x << " ";
 
     cout<<endl;    
+    cout<<"Trying to sort the strings in the list : "<<endl;
     list<string> s2{"zebra", "fish", "joker", "apple", "batman"};
     s2.sort();
     for (auto y : s2)
         cout << y <<" ";
 
-    cout<<endl;    
+    cout<<"Trying to reverse sorted strings in the list : "<<endl;
     s2.reverse();
     for (auto y : s2)
         cout << y <<" ";

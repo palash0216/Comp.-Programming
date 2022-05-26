@@ -16,6 +16,7 @@ int main()
     m["Banana"] = 120;//third way
     // Search
     string fruit;
+    cout<<"Enter the fruit name : " ;
     cin >> fruit;
     // m.erase[fruit]; //This is to erase
     auto it = m.find(fruit);
